@@ -24,3 +24,14 @@ NULL
 #' @rdname patRoonData
 #' @export
 exampleDataPath <- function() system.file("extdata", package = "patRoonData")
+
+
+#' Example target analyte list
+#'
+#' The \code{targets} dataset contains information for 23 target analytes and
+#' can directly be used with the \code{\link[patRoon]{screenTargets}} function.
+#'
+#' @format A \code{data.frame} with column \code{name}, \code{mz} and \code{rt},
+#'   specifying the analyte name, \emph{m/z} and retention time (in seconds),
+#'   respectively.
+"targets"
