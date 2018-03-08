@@ -1,7 +1,7 @@
 library(patRoon)
 
 dataDir <- "~/werk/Vittorio/demo"
-anaInfo <- generateAnalysisInfo(dataDir)
+anaInfo <- generateAnalysisInfo(dataDir, fileTypes = "Bruker")
 
 # data recalibration & export
 setDAMethod(anaInfo, file.path(dataDir, "20180306-DA-pos.m"))
@@ -9,7 +9,7 @@ recalibrarateDAFiles(anaInfo)
 exportDAFiles(anaInfo)
 
 # trim files: only keep retention/mz ranges specified below
-rtRange <- "0:600"; mzRange <- "75:250"
+rtRange <- "0:600"; mzRange <- "75:300"
 for (anai in seq_len(nrow(anaInfo)))
 {
     mzML <- file.path(anaInfo$path[anai], paste0(anaInfo$analysis[anai], ".mzML"))
