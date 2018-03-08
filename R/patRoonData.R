@@ -11,9 +11,9 @@
 #'
 #' To reduce file sizes, the data has been filtered to only contain the first
 #' ten minutes of the chromatographic run with \emph{m/z} 75-300. This filtering
-#' step was performed with the \command{FileFilter} command of
-#' \href{http://www.openms.de}{OpenMS}. The complete data processing script can
-#' be found in data-raw/process.R
+#' step was performed with the \command{msconvert} command of
+#' \href{http://proteowizard.sourceforge.net/index.shtml}{ProteoWizard}. The
+#' complete data processing script can be found in data-raw/process.R
 #'
 #' @name patRoonData
 NULL

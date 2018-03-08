@@ -8,6 +8,7 @@ Authors@R: c(
 Description: This package contains a triplicate analysis of a standard mixture with various
     polar contaminants and a triplicate analysis of a blank solvent. The data is meant as a
     demonstration for the patRoon package.
+Suggests: patRoon
 License: CC0
 Encoding: UTF-8
 LazyData: true
