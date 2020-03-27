@@ -14,8 +14,8 @@ To reduce file sizes, the data has been filtered to only contain the first ten m
 You can install patRoonData from github with:
 
 ``` r
-install.packages("devtools")
-devtools::install_github("rickhelmus/patRoonData")
+install.packages("remotes")
+remotes::install_github("rickhelmus/patRoonData")
 ```
 
 ## More information
@@ -25,6 +25,6 @@ Please see the [patRoon web page][patRoon-web].
 
 [patRoon]: https://github.com/rickhelmus/patRoon
 [patRoon-web]: https://rickhelmus.github.io/patRoon/
-[patRoon-tutorial]: https://github.com/rickhelmus/patRoon/blob/master/docs/articles/tutorial.html
+[patRoon-tutorial]: https://rickhelmus.github.io/patRoon/articles/tutorial.html
 [OpenMS]: http://openms.de/
 [ProteoWizard]: http://proteowizard.sourceforge.net/index.shtml

@@ -4,9 +4,11 @@
 \name{targets}
 \alias{targets}
 \title{Example target analyte list}
-\format{A \code{data.frame} with column \code{name}, \code{mz} and \code{rt},
+\format{
+A \code{data.frame} with column \code{name}, \code{mz} and \code{rt},
   specifying the analyte name, \emph{m/z} and retention time (in seconds),
-  respectively.}
+  respectively.
+}
 \usage{
 targets
 }

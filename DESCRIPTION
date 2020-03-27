@@ -1,7 +1,7 @@
 Package: patRoonData
 Type: Package
 Title: Example Data For The patRoon Package 
-Version: 0.1
+Version: 1.0
 Authors@R: c(
     person("Rick", "Helmus", email = "r.helmus@uva.nl", role = c("aut", "cre")),
     person("Vittorio", "Albergamo", email = "v.albergamo@uva.nl", role = "aut"))
@@ -12,6 +12,7 @@ Suggests: patRoon
 License: CC0
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 7.1.0
 URL: https://github.com/rickhelmus/patRoonData
 BugReports: https://github.com/rickhelmus/patRoonData/issues
+Depends: R (>= 2.10)
