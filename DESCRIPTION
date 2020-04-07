@@ -1,7 +1,7 @@
 Package: patRoonData
 Type: Package
 Title: Example Data For The patRoon Package 
-Version: 1.0
+Version: 1.0.0
 Authors@R: c(
     person("Rick", "Helmus", email = "r.helmus@uva.nl", role = c("aut", "cre")),
     person("Vittorio", "Albergamo", email = "v.albergamo@uva.nl", role = "aut"))

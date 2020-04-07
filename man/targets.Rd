@@ -14,6 +14,6 @@ targets
 }
 \description{
 The \code{targets} dataset contains information for 23 target analytes and
-can directly be used with the \code{\link[patRoon]{screenTargets}} function.
+can directly be used with the \code{\link[patRoon]{screenSuspects}} function.
 }
 \keyword{datasets}
