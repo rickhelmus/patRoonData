@@ -1,13 +1,15 @@
 Package: patRoonData
 Type: Package
 Title: Example Data For The patRoon Package 
-Version: 1.0.0
+Version: 2.0.0
 Authors@R: c(
     person("Rick", "Helmus", email = "r.helmus@uva.nl", role = c("aut", "cre")),
+    person("Narain-Ford", "Dominique", role = "aut"),
+    person("Absalah", "Samira", role = "aut"),
     person("Vittorio", "Albergamo", email = "v.albergamo@uva.nl", role = "aut"))
 Description: This package contains a triplicate analysis of a standard mixture with various
-    polar contaminants and a triplicate analysis of a blank solvent. The data is meant as a
-    demonstration for the patRoon package.
+    contaminants and a triplicate analysis of a blank solvent (positive and negative mode).
+    The data is meant as a demonstration for the patRoon package.
 Suggests: patRoon
 License: CC0
 Encoding: UTF-8
