@@ -14,7 +14,7 @@ for (pol in c("pos", "neg"))
     convertMSFiles(anaInfo = anaInfo, from = "bruker", to = "mzML",
                    filters = c(sprintf("scanTime [%d,%d]", rtRange[1], rtRange[2]),
                                sprintf("mzWindow [%d,%d]", mzRange[1], mzRange[2])),
-                   extraOpts = "-n", overWrite = TRUE)
+                   overWrite = TRUE)
     
     # simplify sample names
     simplAnaNames <- anaInfo$analysis
