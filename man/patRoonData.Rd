@@ -3,9 +3,12 @@
 \name{patRoonData}
 \alias{patRoonData}
 \alias{exampleDataPath}
+\alias{exampleAnalysisInfo}
 \title{Test data for the patRoon package}
 \usage{
 exampleDataPath(polarity = "positive")
+
+exampleAnalysisInfo(polarity = "positive")
 }
 \arguments{
 \item{polarity}{Either \code{"positive"} or \code{"negative"}.}
@@ -19,9 +22,11 @@ solvent. Both were analysed in triplicate, using an Shimadzu Nexera UHPLC couple
 time of flight instrument (Bruker maXis 4G Q-TOF) using positive and negative electrospray ionization.
 
 To reduce file sizes, the data has been filtered to only contain the first ten minutes of the chromatographic run
-with \emph{m/z} 75-500. This filtering step was performed with the \command{msconvert} command of
-\href{http://proteowizard.sourceforge.net/index.shtml}{ProteoWizard}. The complete data processing script can be
+with \emph{m/z} 75-500. The complete data processing script can be
 found in data-raw/process.R
 
 \code{exampleDataPath} is a helper function that returns the file path of the example data.
+
+\code{exampleAnalysisInfo} is a helper function that generate analysis information that can be directly used
+  by \pkg{patRoon}.
 }
