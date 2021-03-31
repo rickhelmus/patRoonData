@@ -1,0 +1,37 @@
+name,mz,rt,SMILES
+Gemfibrozil,249.1496,376.8,Cc1ccc(c(c1)OCCCC(C)(C)C(=O)O)C
+1-Hydroxyibuprofen,221.1183,324,CC(C)C(c1ccc(cc1)C(C)C(=O)O)O
+"2,4,5-Trichlorophenoxyacetic acid",252.9232,346.8,c1c(c(cc(c1Cl)Cl)Cl)OCC(=O)O
+"2,4-DB",246.9934,364.2,c1cc(c(cc1Cl)Cl)OCCCC(=O)O
+"2,4-DP",232.9778,343.8,CC(C(=O)O)Oc1ccc(cc1Cl)Cl
+"2,4-Dichlorophenoxyacetic acid",218.9621,333,c1cc(c(cc1Cl)Cl)OCC(=O)O
+3-Hydroxycarbamazepine,251.0826,325.2,c1ccc2c(c1)C=Cc3ccc(cc3N2C(=O)N)O
+"4,6-Dinitro-o-cresol",197.0204,370.2,Cc1cc(cc(c1O)[N+](=O)[O-])[N+](=O)[O-]
+Acesulfame,161.9867,168.6,CC1=CC(=O)NS(=O)(=O)O1
+Barbital,183.0775,264,CCC1(C(=O)NC(=O)NC1=O)CC
+Bentazon,239.0496,313.2,CC(C)N1C(=O)c2ccccc2NS1(=O)=O
+Bromacil,259.0088,324,CCC(C)n1c(=O)c(c(nc1O)C)Br
+Bromoxynil,273.8509,339,c1c(cc(c(c1Br)O)Br)C#N
+Clofibric acid,213.0324,346.2,CC(C)(C(=O)O)Oc1ccc(cc1)Cl
+Diclofenac,294.0094,376.2,c1ccc(c(c1)CC(=O)O)Nc2c(cccc2Cl)Cl
+Fipronil,434.9314,350.4,c1c(cc(c(c1Cl)n2c(c(c(n2)C#N)S(=O)C(F)(F)F)N)Cl)C(F)(F)F
+Flufenoxuron,487.029,393.6,c1cc(c(c(c1)F)C(=O)NC(=O)Nc2ccc(cc2F)Oc3ccc(cc3Cl)C(F)(F)F)F
+Fluroxypyr,252.9588,307.2,C(C(=O)O)Oc1c(c(c(c(n1)F)Cl)N)Cl
+Furosemide,329.0004,328.8,c1cc(oc1)CNc2cc(c(cc2C(=O)O)S(=O)(=O)N)Cl
+HFPO-DA,284.9779,294,C(=O)(C(C(F)(F)F)(OC(C(C(F)(F)F)(F)F)(F)F)F)O
+Ibuprofen,205.1234,364.2,CC(C)Cc1ccc(cc1)C(C)C(=O)O
+Ioxynil,369.8231,354.6,c1c(cc(c(c1I)O)I)C#N
+Lenacil,233.1296,348,C1CCC(CC1)n2c(=O)c3c([nH]c2=O)CCC3
+MCPA,199.0167,337.2,Cc1cc(ccc1OCC(=O)O)Cl
+MCPB,227.048,363.6,Cc1cc(ccc1OCCCC(=O)O)Cl
+Mecoprop,213.0324,346.2,Cc1cc(ccc1OC(C)C(=O)O)Cl
+Methoxyfenozide,367.2027,364.2,Cc1cc(cc(c1)C(=O)N(C(C)(C)C)NC(=O)c2cccc(c2C)OC)C
+N4-Acetylsulfamethoxazole,294.0554,301.8,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)NC(=O)C
+Neburon,273.0567,361.2,CCCCN(C)C(=O)NC1=CC(=C(C=C1)Cl)Cl
+PFBA,212.9792,187.8,C(=O)(C(C(C(F)(F)F)(F)F)(F)F)O
+PFOA,412.9664,320.4,C(=O)(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O
+Pentachlorophenol,262.8397,379.8,C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O
+Propanil,215.9988,340.8,CCC(=O)NC1=CC(=C(C=C1)Cl)Cl
+Saccharin,181.9917,219,C1=CC=C2C(=C1)C(=O)NS2(=O)=O
+Terbacil,215.0593,325.8,CC1=C(C(=O)N(C(=O)N1)C(C)(C)C)Cl
+Triclosan,286.9439,381.6,C1=CC(=C(C=C1Cl)O)OC2=C(C=C(C=C2)Cl)Cl

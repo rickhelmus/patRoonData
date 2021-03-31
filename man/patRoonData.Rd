@@ -5,25 +5,23 @@
 \alias{exampleDataPath}
 \title{Test data for the patRoon package}
 \usage{
-exampleDataPath()
+exampleDataPath(polarity = "positive")
+}
+\arguments{
+\item{polarity}{Either \code{"positive"} or \code{"negative"}.}
 }
 \description{
-A small set of LC-HRMS data to test and demonstrate the functionality of
-patRoon.
+A small set of LC-HRMS data to test and demonstrate the functionality of patRoon.
 }
 \details{
-This package contains data files from (a) a standard mixture containing
-various polar contaminants and (b) a blank solvent. Both were analysed in
-triplicate, using an Shimadzu Nexera UHPLC coupled to an high resolution
-quadrupole time of flight instrument (Bruker maXis 4G Q-TOF) using positive
-electrospray ionization.
+This package contains data files from (1) a standard mixture containing various polar contaminants and (2) a blank
+solvent. Both were analysed in triplicate, using an Shimadzu Nexera UHPLC coupled to an high resolution quadrupole
+time of flight instrument (Bruker maXis 4G Q-TOF) using positive and negative electrospray ionization.
 
-To reduce file sizes, the data has been filtered to only contain the first
-ten minutes of the chromatographic run with \emph{m/z} 75-300. This filtering
-step was performed with the \command{msconvert} command of
-\href{http://proteowizard.sourceforge.net/index.shtml}{ProteoWizard}. The
-complete data processing script can be found in data-raw/process.R
+To reduce file sizes, the data has been filtered to only contain the first ten minutes of the chromatographic run
+with \emph{m/z} 75-500. This filtering step was performed with the \command{msconvert} command of
+\href{http://proteowizard.sourceforge.net/index.shtml}{ProteoWizard}. The complete data processing script can be
+found in data-raw/process.R
 
-\code{exampleDataPath} is a helper function that returns the file
-  path of the example data.
+\code{exampleDataPath} is a helper function that returns the file path of the example data.
 }

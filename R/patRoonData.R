@@ -26,12 +26,25 @@ exampleDataPath <- function(polarity = "positive")
 }
 
 
-#' Example target analyte list
+#' Example suspect lists
 #'
-#' The \code{targets} dataset contains information for 23 target analytes and
-#' can directly be used with the \code{\link[patRoon]{screenSuspects}} function.
+#' The \code{suspectsPos} and \code{suspectsNeg} datasets are example suspect lists for a set of environmental
+#' contaminants (measured in positive and negative ionization, respectively). The datasets can be directly used with the
+#' \code{\link[patRoon]{screenSuspects}} function.
 #'
-#' @format A \code{data.frame} with column \code{name}, \code{mz} and \code{rt},
-#'   specifying the analyte name, \emph{m/z} and retention time (in seconds),
-#'   respectively.
-"targets"
+#' @format A \code{data.frame} with column \code{name}, \code{mz}, \code{rt} and \code{SMILES}, specifying the analyte
+#'   name, \emph{m/z}, retention time (in seconds) and SMILES, respectively.
+#' @name suspects
+#' @author Dominique Narain-Ford, Samira Absalah, Rick Helmus and Vittorio Albergamo
+#' @keywords datasets
+NULL
+
+#' @format 
+#' @aliases suspectsPos
+#' @rdname suspects
+"suspectsPos"
+
+#' @format 
+#' @aliases suspectsNeg
+#' @rdname suspects
+"suspectsNeg"
