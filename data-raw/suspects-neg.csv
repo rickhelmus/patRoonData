@@ -1,6 +1,5 @@
 name,mz,rt,SMILES
 Gemfibrozil,249.1496,376.8,Cc1ccc(c(c1)OCCCC(C)(C)C(=O)O)C
-1-Hydroxyibuprofen,221.1183,324,CC(C)C(c1ccc(cc1)C(C)C(=O)O)O
 "2,4,5-Trichlorophenoxyacetic acid",252.9232,346.8,c1c(c(cc(c1Cl)Cl)Cl)OCC(=O)O
 "2,4-DB",246.9934,364.2,c1cc(c(cc1Cl)Cl)OCCCC(=O)O
 "2,4-DP",232.9778,343.8,CC(C(=O)O)Oc1ccc(cc1Cl)Cl
@@ -9,7 +8,6 @@ Gemfibrozil,249.1496,376.8,Cc1ccc(c(c1)OCCCC(C)(C)C(=O)O)C
 "4,6-Dinitro-o-cresol",197.0204,370.2,Cc1cc(cc(c1O)[N+](=O)[O-])[N+](=O)[O-]
 Acesulfame,161.9867,168.6,CC1=CC(=O)NS(=O)(=O)O1
 Barbital,183.0775,264,CCC1(C(=O)NC(=O)NC1=O)CC
-Bentazon,239.0496,313.2,CC(C)N1C(=O)c2ccccc2NS1(=O)=O
 Bromacil,259.0088,324,CCC(C)n1c(=O)c(c(nc1O)C)Br
 Bromoxynil,273.8509,339,c1c(cc(c(c1Br)O)Br)C#N
 Clofibric acid,213.0324,346.2,CC(C)(C(=O)O)Oc1ccc(cc1)Cl
@@ -33,4 +31,3 @@ Pentachlorophenol,262.8397,379.8,C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O
 Propanil,215.9988,340.8,CCC(=O)NC1=CC(=C(C=C1)Cl)Cl
 Saccharin,181.9917,219,C1=CC=C2C(=C1)C(=O)NS2(=O)=O
 Terbacil,215.0593,325.8,CC1=C(C(=O)N(C(=O)N1)C(C)(C)C)Cl
-Triclosan,286.9439,381.6,C1=CC(=C(C=C1Cl)O)OC2=C(C=C(C=C2)Cl)Cl

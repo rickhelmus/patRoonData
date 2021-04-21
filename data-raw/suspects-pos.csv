@@ -33,11 +33,8 @@ Dimefuron,339.1218,352.8,CC(C)(C)c1nn(c(=O)o1)c2ccc(cc2Cl)NC(=O)N(C)C
 Dimethanamid-p,276.082,373.2,CC1=CSC(=C1N(C(C)COC)C(=O)CCl)C
 Diuron,233.0243,336.6,CN(C)C(O)=NC1C=C(Cl)C(Cl)=CC=1
 Ethidimuron,265.0424,300,CCS(=O)(=O)c1nnc(s1)N(C)C(=O)NC
-Ethofumesate,287.0948,366.6,CCOC1C(c2cc(ccc2O1)OS(=O)(=O)C)(C)C
-Fenuron,165.1022,290.4,CN(C)C(=O)NC1=CC=CC=C1
 Flufenacet,364.0737,372,CC(C)N(c1ccc(cc1)F)C(=O)COc2nnc(s2)C(F)(F)F
 Fluometuron,233.0896,321.6,CN(C)C(=O)Nc1cccc(c1)C(F)(F)F
-Fosalon,367.9941,402,CCOP(=S)(OCC)SCn1c2ccc(cc2oc1=O)Cl
 Heptenophos,251.0234,352.8,COP(=O)(OC)OC1=C(C2C1CC=C2)Cl
 Hexazinone,253.1659,352.8,Cn1c(nc(=O)n(c1=O)C2CCCCC2)N(C)C
 Isoproturon,207.1492,340.8,CC(C)c1ccc(cc1)NC(=O)N(C)C
@@ -59,7 +56,6 @@ N-Phenyl urea,137.0709,249,C1=CC=C(C=C1)NC(=O)N
 Naproxen,231.1016,361.2,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O
 Phenmedipham,301.1183,349.8,CC1=CC(=CC=C1)NC(=O)OC2=CC=CC(=C2)NC(=O)OC
 Prometon,226.1662,350.4,CC(C)NC1=NC(=NC(=N1)OC)NC(C)C
-Prosulfocarb,252.1417,392.4,CCCN(CCC)C(=O)SCC1=CC=CC=C1
 Pyridafol,207.032,313.2,C1=CC=C(C=C1)C2=NNC(=CC2=O)Cl
 Siduron,233.1648,348.6,CC1CCCCC1NC(=O)NC2=CC=CC=C2
 Simetryne,214.1121,344.4,CCNC1=NC(=NC(=N1)SC)NCC
