@@ -24,6 +24,9 @@ The \code{suspectsPos} and \code{suspectsNeg} datasets are example suspect lists
 contaminants (measured in positive and negative ionization, respectively). The datasets can be directly used with the
 \code{\link[patRoon]{screenSuspects}} function.
 }
+\seealso{
+\link{ISTDList}
+}
 \author{
 Dominique Narain-Ford, Samira Absalah, Rick Helmus and Vittorio Albergamo
 }

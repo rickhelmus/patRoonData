@@ -1,7 +1,7 @@
 # patRoonData
 
 This R package contains example to test and demonstrate the [patRoon R package][patRoon].
-The data is used in the [package vignette][patRoon-tutorial] to demonstrate the various functionalities of patRoon regarding mass spectrometry based non-target analysis.
+The data is used in the [package vignette][patRoon-tutorial] to demonstrate the various functionality of patRoon regarding mass spectrometry based non-target analysis.
 
 This data package contains
 * a triplicate analysis of a blank solvent (useful for blank subtraction)

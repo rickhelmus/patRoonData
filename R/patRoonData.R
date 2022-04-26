@@ -57,6 +57,7 @@ exampleAnalysisInfo <- function(polarity = "positive")
 #' @name suspects
 #' @author Dominique Narain-Ford, Samira Absalah, Rick Helmus and Vittorio Albergamo
 #' @keywords datasets
+#' @seealso \link{ISTDList}
 NULL
 
 #' @format 
@@ -68,3 +69,27 @@ NULL
 #' @aliases suspectsNeg
 #' @rdname suspects
 "suspectsNeg"
+
+#' Example internal standard lists
+#'
+#' The \code{ISTDListPos} and \code{ISTDListNeg} datasets are example lists with internal standards for a set of
+#' environmental contaminants (measured in positive and negative ionization, respectively). The datasets can be directly
+#' used with the \code{\link[patRoon]{normInts}} function.
+#'
+#' @format A \code{data.frame} with column \code{name}, \code{formula} and \code{rt}, specifying the analyte name,
+#'   formula and retention time (in seconds), respectively.
+#' @name ISTDList
+#' @author Dominique Narain-Ford, Samira Absalah, Rick Helmus and Vittorio Albergamo
+#' @keywords datasets
+#' @seealso \link{suspects}
+NULL
+
+#' @format 
+#' @aliases ISTDListPos
+#' @rdname ISTDList
+"ISTDListPos"
+
+#' @format 
+#' @aliases ISTDListNeg
+#' @rdname ISTDList
+"ISTDListNeg"
