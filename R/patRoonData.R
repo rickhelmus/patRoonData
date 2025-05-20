@@ -40,10 +40,13 @@ exampleAnalysisInfo <- function(polarity = "positive")
     if (!requireNamespace("patRoon", quietly = TRUE))
         stop("Please make sure that patRoon is installed!", call. = FALSE)
     suffix <- if (polarity == "positive") "pos" else "neg"
-    patRoon::generateAnalysisInfo(exampleDataPath(polarity),
-                                  groups = c(rep(paste0("solvent-", suffix), 3),
-                                             rep(paste0("standard-", suffix), 3)),
-                                  blanks = paste0("solvent-", suffix))
+    ret <- patRoon::generateAnalysisInfo(fromCentroid = exampleDataPath(polarity),
+                                         replicate = c(rep(paste0("solvent-", suffix), 3),
+                                                        rep(paste0("standard-", suffix), 3)),
+                                         blank = paste0("solvent-", suffix))
+    if (packageVersion("patRoon") >= "3")
+        names(ret)[names(ret) == "path"] <- "path_centroid" # UNDONE
+    return(ret)
 }
 
 #' Example suspect lists
