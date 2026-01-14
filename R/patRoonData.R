@@ -40,12 +40,20 @@ exampleAnalysisInfo <- function(polarity = "positive")
     if (!requireNamespace("patRoon", quietly = TRUE))
         stop("Please make sure that patRoon is installed!", call. = FALSE)
     suffix <- if (polarity == "positive") "pos" else "neg"
-    ret <- patRoon::generateAnalysisInfo(fromCentroid = exampleDataPath(polarity),
-                                         replicate = c(rep(paste0("solvent-", suffix), 3),
-                                                        rep(paste0("standard-", suffix), 3)),
-                                         blank = paste0("solvent-", suffix))
-    if (packageVersion("patRoon") >= "3")
-        names(ret)[names(ret) == "path"] <- "path_centroid" # UNDONE
+    ret <- if (packageVersion("patRoon") >= "3")
+    {
+        patRoon::generateAnalysisInfo(fromCentroid = exampleDataPath(polarity),
+                                      replicate = c(rep(paste0("solvent-", suffix), 3),
+                                                    rep(paste0("standard-", suffix), 3)),
+                                      blank = paste0("solvent-", suffix))
+    }
+    else
+    {
+        patRoon::generateAnalysisInfo(exampleDataPath(polarity),
+                                      group = c(rep(paste0("solvent-", suffix), 3),
+                                                rep(paste0("standard-", suffix), 3)),
+                                      blank = paste0("solvent-", suffix))
+    }
     return(ret)
 }
 
