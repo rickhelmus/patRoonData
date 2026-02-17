@@ -1,6 +1,6 @@
 # patRoonData
 
-This R package contains example to test and demonstrate the [patRoon R package][patRoon].
+This R package contains example raw LC-HRMS data to test and demonstrate the [patRoon R package][patRoon].
 The data is used in the [package vignette][patRoon-tutorial] to demonstrate the various functionality of patRoon regarding mass spectrometry based non-target analysis.
 
 This data package contains
@@ -20,7 +20,7 @@ remotes::install_github("rickhelmus/patRoonData")
 
 ## More information
 
-Please see the [patRoon web page][patRoon-web].
+Please see the [patRoon web page][patRoon-web] and see the [patRoonDataIMS] package for LC-IMS-HRMS demo data.
 
 
 [patRoon]: https://github.com/rickhelmus/patRoon
@@ -28,3 +28,4 @@ Please see the [patRoon web page][patRoon-web].
 [patRoon-tutorial]: https://rickhelmus.github.io/patRoon/articles/tutorial.html
 [OpenMS]: http://openms.de/
 [ProteoWizard]: http://proteowizard.sourceforge.net/index.shtml
+[patRoonDataIMS]: https://github.com/rickhelmus/patRoonDataIMS
