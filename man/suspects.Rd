@@ -10,9 +10,9 @@
 A \code{data.frame} with column \code{name}, \code{mz}, \code{rt} and \code{SMILES}, specifying the analyte
   name, \emph{m/z}, retention time (in seconds) and SMILES, respectively.
 
+An object of class \code{data.frame} with 73 rows and 4 columns.
 
-
-
+An object of class \code{data.frame} with 32 rows and 4 columns.
 }
 \usage{
 suspectsPos

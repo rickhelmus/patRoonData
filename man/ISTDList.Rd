@@ -10,9 +10,9 @@
 A \code{data.frame} with column \code{name}, \code{formula} and \code{rt}, specifying the analyte name,
   formula and retention time (in seconds), respectively.
 
+An object of class \code{data.frame} with 24 rows and 3 columns.
 
-
-
+An object of class \code{data.frame} with 9 rows and 3 columns.
 }
 \usage{
 ISTDListPos
